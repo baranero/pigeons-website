@@ -1,0 +1,17 @@
+.achievements {
+    background: #A7ECEE;
+    
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    
+    font-size: 36px;
+    font-weight: 700;
+}

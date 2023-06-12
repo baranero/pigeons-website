@@ -9,10 +9,10 @@ const Header = () => {
             </div>
             <nav>
                 <ul className={classes.navbar}>
-                    <li className={classes['navbar-item']}><a href="/about">O mnie</a></li>
-                    <li className={classes['navbar-item']}><a href="/achievements">Osiągniecia</a></li>
-                    <li className={classes['navbar-item']}><a href="/pigeons">Gołębie</a></li>
-                    <li className={classes['navbar-item']}><a href="/contact">Kontakt</a></li>
+                    <li className={classes['navbar-item']}><a href="#about">O mnie</a></li>
+                    <li className={classes['navbar-item']}><a href="#achievements">Osiągniecia</a></li>
+                    <li className={classes['navbar-item']}><a href="#pigeons">Gołębie</a></li>
+                    <li className={classes['navbar-item']}><a href="#contact">Kontakt</a></li>
                 </ul>
             </nav>
         </section>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { SliderData } from './SliderData';
+import classes from './ImageSlider.module.css'
+import { SliderData } from '../sliderData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 const ImageSlider = ({ slides }) => {
@@ -19,19 +20,19 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+    <section className={classes.slider}>
+      <FaArrowAltCircleLeft className={classes['left-arrow']} onClick={prevSlide} />
+      <FaArrowAltCircleRight className={classes['right-arrow']} onClick={nextSlide} />
       {SliderData.map((slide, index) => {
         return (
           <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='Pigeon' className='image' />
-            )}
-          </div>
+          className={`${classes.slide} ${index === current ? classes.active : ''}`}
+          key={index}
+        >
+          {index === current && (
+            <img src={slide.image} alt='Pigeon' className={classes.image} />
+          )}
+        </div>
         );
       })}
     </section>

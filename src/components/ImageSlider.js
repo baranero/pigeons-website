@@ -22,7 +22,7 @@ const ImageSlider = ({ slides }) => {
   return (
     <section className={classes.slider}>
       <FaArrowAltCircleLeft className={classes['left-arrow']} onClick={prevSlide} />
-      <FaArrowAltCircleRight className={classes['right-arrow']} onClick={nextSlide} />
+
       {SliderData.map((slide, index) => {
         return (
           <div
@@ -35,6 +35,7 @@ const ImageSlider = ({ slides }) => {
         </div>
         );
       })}
+            <FaArrowAltCircleRight className={classes['right-arrow']} onClick={nextSlide} />
     </section>
   );
 };

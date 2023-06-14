@@ -1,5 +1,6 @@
 .footer {
-    background: #99DBF5;
+    background: #FFEEBBa6;
+    box-shadow: 0 0 50px 7px #868181af;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,8 +1,11 @@
 .pigeons {
-    background: #FFEEBB;
+    background: #99DBF5;
+    box-shadow: 0 0 50px 7px #868181af;
 }
 
 .title-container {
+    box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.274);
+
     display: flex;
     padding: 20px 0;
     justify-content: center;
@@ -16,3 +19,19 @@
     font-weight: 700;
 }
 
+.images {
+    display: flex;
+
+}
+
+.images-description {
+    background-color: rgba(152, 155, 161, 0.233);
+    box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.274);
+    border-radius: 10px;
+    backdrop-filter: blur(7px);
+    padding: 60px;
+    height: max-content;
+    margin: auto 0;
+    animation: fadeInDescription ease 1s;
+    z-index: 1;
+}

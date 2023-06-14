@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header/>
       <About/>
-      <Achievements/>
+      {/* <Achievements/> */}
       <Pigeons/>
       <Contact/>
       <Footer/>
@@ -20,3 +20,5 @@ function App() {
 }
 
 export default App;
+
+{/* <a href="https://www.freepik.com/free-photo/seagulls-birds-fly-blue-sky_9129605.htm#page=3&query=pigeons&position=17&from_view=search&track=sph">Image by devmaryna</a> on Freepik */}

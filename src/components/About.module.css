@@ -1,9 +1,12 @@
 .about {
-    background: #99DBF5;
+    background-image: url('../../public/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .image {
@@ -12,25 +15,32 @@
     margin-left: 100px;
     animation: fadeInImage ease 1s;
     rotate: 5deg;
-    z-index: 2;
+    z-index: 3;
 }
 
 .image-background {
     position: absolute;
-    left: 15%;
+    left: 13%;
     height: 600px;
     border-radius: 20px;
     margin-left: 100px;
     animation: fadeInImage ease 1s;
     opacity: 0.2;
-    rotate: -5deg
+    rotate: -5deg;
+    z-index: 1;
 }
 
 .about-container {
+    background-color: rgba(152, 155, 161, 0.233);
+    box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.274);
+    border-radius: 10px;
+    backdrop-filter: blur(7px);
+    padding: 60px;
     width: 600px;
     margin-right: 100px;
     margin-left: 100px;
     animation: fadeInDescription ease 1s;
+    z-index: 1;
 }
 
 .title {

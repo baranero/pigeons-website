@@ -1,17 +1,18 @@
 .slider {
-    height: 100vh;
     display: flex;
-    justify-content: left;
     align-items: center;
+    justify-content: center;
+    margin: auto 0;
   }
   
   .image {
-    width: 60vw;
+width: 60vw;
     box-shadow: 0 0 50px 10px #5c5c5c9a;
+    transform: translateX(-48px);
   }
   
   .right-arrow {
-    transform: translateX(-20px);
+    transform: translateX(-110px);
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -21,7 +22,7 @@
   
   .left-arrow {
 
-    transform: translateX(20px);
+    transform: translateX(10px);
     font-size: 3rem;
     color: #000;
     z-index: 10;
@@ -32,11 +33,12 @@
   .slide {
     opacity: 0;
     transition-duration: 2s ease;
+    transform: scale(0.9);
   }
   
   .slide.active {
 
     opacity: 1;
     transition-duration: 1s;
-    transform: scale(1.08);
+    transform: scale(1.0);
   }

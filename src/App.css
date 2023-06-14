@@ -3,7 +3,9 @@ body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
+    background-image: url('../public/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 html {

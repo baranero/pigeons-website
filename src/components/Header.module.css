@@ -1,5 +1,6 @@
 .header {
     background: #9AC5F4;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,10 +23,13 @@
     display: flex;
     list-style: none;
     margin-right: 100px;
+    background-color: #6db3ff;
+    padding: 25px;
+    border-radius: 60px;
 }
 
 .navbar-item {
-    margin: 0 15px;
+    margin: 0 25px;
     font-size: large;
     font-weight: 600;
 }

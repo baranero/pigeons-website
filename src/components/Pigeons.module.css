@@ -1,33 +1,28 @@
 .pigeons {
-    background: #99DBF5;
+    background: #99DBF5a6;
     box-shadow: 0 0 50px 7px #868181af;
+    height: 100vh;
 }
 
 .title-container {
     box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.274);
 
     display: flex;
-    padding: 20px 0;
     justify-content: center;
     align-items: center;
 }
 
-.title {
-
-    margin-left: 15px;
-    font-size: 36px;
-    font-weight: 700;
-}
 
 .images {
     display: flex;
-
+    align-items: center;
+    height: 100vh;
 }
 
 .images-description {
-    background-color: rgba(152, 155, 161, 0.233);
-    box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.274);
-    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    width: 50vw;
     backdrop-filter: blur(7px);
     padding: 60px;
     height: max-content;

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import classes from './Header.module.css';
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Header = () => {
   const [hidden, setHidden] = useState(false);
@@ -28,8 +29,11 @@ const Header = () => {
         <img className={classes.image} src="./images/logo.png" alt="Logo" />
         <h1>Krzysztof Baran</h1>
       </div>
-      <nav>
-        <ul className={classes.navbar}>
+      <div className={classes.hamburger}>
+        <GiHamburgerMenu size={35}/>
+      </div>
+      <nav className={classes.navbar}>
+        <ul className={classes['navbar-list']}>
           <li className={classes['navbar-item']}><a href="#about">O mnie</a></li>
           <li className={classes['navbar-item']}><a href="#achievements">Osiągniecia</a></li>
           <li className={classes['navbar-item']}><a href="#pigeons">Gołębie</a></li>

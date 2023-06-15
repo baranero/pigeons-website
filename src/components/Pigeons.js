@@ -1,4 +1,4 @@
-import { GiNestBirds } from 'react-icons/gi'
+
 import classes from './Pigeons.module.css'
 import ImageSlider from './ImageSlider'
 import { SliderData } from '../sliderData'
@@ -6,7 +6,7 @@ import { SliderData } from '../sliderData'
 const Pigeons = () => {
     return (
         <section id='pigeons' className={classes.pigeons}>
-            <div className={classes.images}>
+            <div className={classes.container}>
                 <ImageSlider slides={SliderData}/>
                 <div className={classes['images-container']}>
                 <h2 className={classes.title}>Starannie wyselekcjowane linie gołębi</h2>

@@ -2,8 +2,6 @@ body {
   background-image: url("../public/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 
 html {
@@ -22,7 +20,6 @@ html {
     rgba(167, 236, 238, 0.5) 40%,
     rgba(255, 238, 187, 0.5) 70%
   );
-
 }
 
 @keyframes fadeInAnimation {

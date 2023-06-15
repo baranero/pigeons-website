@@ -1,22 +1,35 @@
-
 body {
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    background-image: url('../public/images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../public/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
 }
 
 html {
-    scroll-behavior: smooth;
-  }
- 
+  scroll-behavior: smooth;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.App {
+  background: rgb(154, 197, 244);
+  background: linear-gradient(
+    180deg,
+    rgba(154, 197, 244, 0.5) 0%,
+    rgba(153, 219, 245, 0.5) 0%,
+    rgba(167, 236, 238, 0.5) 40%,
+    rgba(255, 238, 187, 0.5) 70%
+  );
+
+}
+
 @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

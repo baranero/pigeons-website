@@ -4,7 +4,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    transition: top 0.3s;
+    top: 0;
 }
+
+.header.hidden {
+    top: -10vh;
+  }
 
 .header-logo {
     display: flex;
@@ -16,21 +25,19 @@
 
 .image {
     margin: 0 10px 0 40px;
-    height: 120px;
+    height: 10vh;
 }
 
 .navbar {
     display: flex;
     list-style: none;
     margin-right: 100px;
-    background-color: #6db3ff;
-    padding: 25px;
-    border-radius: 60px;
+
 }
 
 .navbar-item {
     margin: 0 25px;
-    font-size: large;
+    font-size: 20px;
     font-weight: 600;
 }
 

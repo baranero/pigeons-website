@@ -35,7 +35,7 @@
     backdrop-filter: blur(7px);
     padding: 60px;
     width: 600px;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-left: 100px;
     animation: fadeInDescription ease 1s;
     z-index: 1;

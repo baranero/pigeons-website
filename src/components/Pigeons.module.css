@@ -1,6 +1,6 @@
 .pigeons {
-    background: #99DBF5a6;
-    box-shadow: 0 0 50px 7px #868181af;
+    /* background: #99DBF5a6;
+    box-shadow: 0 0 50px 7px #868181af; */
     height: 100vh;
 }
 
@@ -19,14 +19,27 @@
     height: 100vh;
 }
 
-.images-description {
-    display: flex;
-    justify-content: right;
-    width: 50vw;
+.images-container {
+    background-color: rgba(152, 155, 161, 0.233);
+    box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.274);
+    border-radius: 10px;
     backdrop-filter: blur(7px);
     padding: 60px;
-    height: max-content;
-    margin: auto 0;
+    width: 600px;
+    margin-right: 50px;
+    margin-left: 0px;
     animation: fadeInDescription ease 1s;
     z-index: 1;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
 }

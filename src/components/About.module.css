@@ -125,6 +125,7 @@
       object-fit: cover;
       margin: 10vh auto 0;
       border-radius: 0px;
+      rotate: 0deg;
     }
 
     .image-background {

@@ -16,6 +16,7 @@
     border-radius: 20px;
     animation: fadeIn ease 1s;
     z-index: 3;
+    rotate: 5deg;
   }
   
   .image-background {
@@ -25,6 +26,7 @@
     border-radius: 20px;
     animation: fadeIn ease 1s;
     z-index: 1;
+    rotate: -5deg;
   }
   
   .about-container {
